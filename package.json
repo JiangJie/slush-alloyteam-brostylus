@@ -1,0 +1,34 @@
+{
+  "name": "slush-alloyteam-brostylus",
+  "version": "0.0.1",
+  "description": "Another Alloyteam Simple Web Apps generator base on slush & glup.",
+  "main": "slushfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JiangJie/slush-alloyteam-brostylus.git"
+  },
+  "keywords": [
+    "slushgenerator",
+    "slush",
+    "gulp",
+    "browserify",
+    "stylus",
+    "template"
+  ],
+  "author": "Jarvis Jiang <jiang115jie@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JiangJie/slush-alloyteam-brostylus/issues"
+  },
+  "homepage": "https://github.com/JiangJie/slush-alloyteam-brostylus",
+  "dependencies": {
+    "gulp": "^3.8.10",
+    "gulp-conflict": "^0.2.0",
+    "gulp-install": "^0.2.0",
+    "gulp-template": "^1.1.1",
+    "inquirer": "^0.8.0"
+  }
+}

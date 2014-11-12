@@ -1,0 +1,27 @@
+{
+  "name": "gulper",
+  "version": "0.0.1",
+  "description": "something about gulp",
+  "main": "gulpfile.js",
+  "keywords": [
+    "gulp",
+    "slush"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^6.2.0",
+    "css-sprite": "^0.9.0-beta2",
+    "del": "^0.1.3",
+    "gulp": "^3.8.10",
+    "gulp-cdn-replace": "0.0.5",
+    "gulp-if": "^1.2.5",
+    "gulp-lodash-template": "0.0.4",
+    "gulp-rev-all": "^0.7.1",
+    "gulp-stylus": "^1.3.4",
+    "gulp-usemin": "^0.3.8",
+    "gulp-zip": "^2.0.2",
+    "nib": "^1.0.4",
+    "run-sequence": "^1.0.1",
+    "vinyl-source-stream": "^1.0.0"
+  }
+}
