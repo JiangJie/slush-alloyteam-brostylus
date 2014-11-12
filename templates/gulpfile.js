@@ -66,9 +66,9 @@ gulp.task('tmpl', function() {
 });
 
 gulp.task('browserify', ['tmpl'], function() {
-    return browserify(src + '/browserify/index.js')
+    return browserify(src + '/browserify/enterpoint/**.js')
         .bundle()
-        .pipe(source('index.js'))
+        // .pipe(source('index.js'))
         .pipe(gulp.dest(src + '/js/'));
 });
 
