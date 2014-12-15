@@ -3,6 +3,8 @@
 var fs = require('fs');
 var path = require('path');
 
+var glob = require('glob');
+
 var gulp = require('gulp');
 var gulpif = require('gulp-if');
 
@@ -66,9 +68,11 @@ gulp.task('tmpl', function() {
 });
 
 gulp.task('browserify', ['tmpl'], function() {
-    return browserify(src + '/browserify/enterpoint/**.js')
+    return browserify({
+        entries: glob.sync(src + '/browserify/enterpoint/*.js')
+    })
         .bundle()
-        // .pipe(source('index.js'))
+        .pipe(source('index.js'))
         .pipe(gulp.dest(src + '/js/'));
 });
 

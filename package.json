@@ -1,6 +1,6 @@
 {
   "name": "slush-alloyteam-brostylus",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Another Alloyteam Simple Web Apps generator base on slush & glup.",
   "main": "slushfile.js",
   "scripts": {
